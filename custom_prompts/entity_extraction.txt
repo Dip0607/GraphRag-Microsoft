@@ -1,0 +1,108 @@
+
+-Goal-
+Given a text document that is potentially relevant to this activity and a list of entity types, identify all entities of those types from the text and all relationships among the identified entities.
+
+-Steps-
+1. Identify all entities. For each identified entity, extract the following information:
+- entity_name: Name of the entity, capitalized
+- entity_type: One of the following types: [company, technology, market_trend, product, geographical_region, time_period, financial_metric]
+- entity_description: Comprehensive description of the entity's attributes and activities
+Format each entity as ("entity"{tuple_delimiter}<entity_name>{tuple_delimiter}<entity_type>{tuple_delimiter}<entity_description>)
+
+2. From the entities identified in step 1, identify all pairs of (source_entity, target_entity) that are *clearly related* to each other.
+For each pair of related entities, extract the following information:
+- source_entity: name of the source entity, as identified in step 1
+- target_entity: name of the target entity, as identified in step 1
+- relationship_description: explanation as to why you think the source entity and the target entity are related to each other
+- relationship_strength: an integer score between 1 to 10, indicating strength of the relationship between the source entity and target entity
+Format each relationship as ("relationship"{tuple_delimiter}<source_entity>{tuple_delimiter}<target_entity>{tuple_delimiter}<relationship_description>{tuple_delimiter}<relationship_strength>)
+
+3. Return output in English as a single list of all the entities and relationships identified in steps 1 and 2. Use **{record_delimiter}** as the list delimiter.
+
+4. If you have to translate into English, just translate the descriptions, nothing else!
+
+5. When finished, output {completion_delimiter}.
+
+-Examples-
+######################
+
+Example 1:
+
+entity_types: [company, technology, market_trend, product, geographical_region, time_period, financial_metric]
+text:
+. In Hyperscale, we hear Amazon digestion could continue through 1H24, and recent feedback also suggests Google orders remain soft & inventory higher, with Meta/Microsoft comparatively better. We see some efforts on the OEM side to buy-ahead a few weeks of DRAM and NAND inventory given low ASPs - we do not yet see this as a significant risk to future demand. Inventory at China mobile OEMs likely higher due to Micron-ban related buy ahead and expectations Huawei re-emergence negatively impacts OVX units in 2H23 and 2024 (also seen as a headwind to Apple).
+
+
+Source: Cleveland Research Company estimates
+Content: 
+## APPENDIX
+
+Disclosures: We, Chandler Converse and Henry
+------------------------
+output:
+("entity"{tuple_delimiter}AMAZON{tuple_delimiter}COMPANY{tuple_delimiter}Amazon is experiencing a digestion period that could continue through the first half of 2024 (1H24))
+{record_delimiter}
+("entity"{tuple_delimiter}GOOGLE{tuple_delimiter}COMPANY{tuple_delimiter}Google is reported to have soft orders and higher inventory levels)
+{record_delimiter}
+("entity"{tuple_delimiter}META/MICROSOFT{tuple_delimiter}COMPANY{tuple_delimiter}Meta and Microsoft are comparatively performing better in terms of orders and inventory management)
+{record_delimiter}
+("entity"{tuple_delimiter}DRAM{tuple_delimiter}TECHNOLOGY{tuple_delimiter}DRAM is a type of technology for which OEMs are buying ahead a few weeks of inventory given low Average Selling Prices (ASPs))
+{record_delimiter}
+("entity"{tuple_delimiter}NAND{tuple_delimiter}TECHNOLOGY{tuple_delimiter}NAND is a technology product for which OEMs are also buying ahead inventory due to low ASPs)
+{record_delimiter}
+("entity"{tuple_delimiter}1H24{tuple_delimiter}TIME_PERIOD{tuple_delimiter}First half of 2024, a time period mentioned in relation to Amazon's digestion period)
+{record_delimiter}
+("entity"{tuple_delimiter}2H23{tuple_delimiter}TIME_PERIOD{tuple_delimiter}Second half of 2023, a time period mentioned in relation to the impact on OVX units due to Huawei's re-emergence)
+{record_delimiter}
+("entity"{tuple_delimiter}2024{tuple_delimiter}TIME_PERIOD{tuple_delimiter}The year 2024, mentioned in relation to ongoing market trends and impacts)
+{record_delimiter}
+("entity"{tuple_delimiter}MICRON{tuple_delimiter}COMPANY{tuple_delimiter}Micron is involved in a ban that leads to higher inventory at China mobile OEMs)
+{record_delimiter}
+("entity"{tuple_delimiter}HUAWEI{tuple_delimiter}COMPANY{tuple_delimiter}Huawei's re-emergence is expected to negatively impact OVX units in the second half of 2023 and 2024)
+{record_delimiter}
+("entity"{tuple_delimiter}APPLE{tuple_delimiter}COMPANY{tuple_delimiter}Apple is seen as facing headwinds due to market conditions in 2024)
+{record_delimiter}
+("relationship"{tuple_delimiter}AMAZON{tuple_delimiter}1H24{tuple_delimiter}Amazon's digestion period is expected to continue through the first half of 2024{tuple_delimiter}8)
+{record_delimiter}
+("relationship"{tuple_delimiter}HUAWEI{tuple_delimiter}2H23{tuple_delimiter}Huawei's re-emergence impacts the market in the second half of 2023{tuple_delimiter}7)
+{record_delimiter}
+("relationship"{tuple_delimiter}HUAWEI{tuple_delimiter}2024{tuple_delimiter}Huawei's market impact extends into the year 2024{tuple_delimiter}7)
+{record_delimiter}
+("relationship"{tuple_delimiter}APPLE{tuple_delimiter}2024{tuple_delimiter}Apple faces market headwinds in the year 2024{tuple_delimiter}6)
+{completion_delimiter}
+#############################
+
+
+Example 2:
+
+entity_types: [company, technology, market_trend, product, geographical_region, time_period, financial_metric]
+text:
+ into 2024). We hear Samsung 128GB demand forecasts lower of late - with the root cause unclear, attributed by some to 1) Hynix taking 128GB share, 2) some AI demand slackening, and 3) adoption of 96GB potentially impacting 128GB. We hear 128GB DIMMs ASPs of $1,200 -1,500 with Hynix higher vs Samsung. We hear 24Gb 96GB now shipping to customers, ASPs $270 -300 (much lower vs TSV 128GB premiums) and buyers attempting to drive server designs to utilize 96GB as an alternative to 128GB; unclear if successful. In our Sept work, we had
+------------------------
+output:
+("entity"{tuple_delimiter}SAMSUNG{tuple_delimiter}company{tuple_delimiter}Samsung is a major technology company experiencing changes in demand for its 128GB products, potentially due to competition and market shifts)
+{record_delimiter}
+("entity"{tuple_delimiter}HYNIX{tuple_delimiter}company{tuple_delimiter}Hynix is a competitor of Samsung, reportedly taking market share in the 128GB segment)
+{record_delimiter}
+("entity"{tuple_delimiter}128GB{tuple_delimiter}product{tuple_delimiter}128GB is a product specification for memory modules, currently facing varied demand and competition in the market)
+{record_delimiter}
+("entity"{tuple_delimiter}96GB{tuple_delimiter}product{tuple_delimiter}96GB is an alternative product to 128GB, now shipping to customers with significantly lower ASPs)
+{record_delimiter}
+("entity"{tuple_delimiter}2024{tuple_delimiter}time_period{tuple_delimiter}The year 2024, mentioned in the context of forecasting and market analysis for technology products)
+{record_delimiter}
+("relationship"{tuple_delimiter}SAMSUNG{tuple_delimiter}128GB{tuple_delimiter}Samsung's demand for 128GB products is decreasing{tuple_delimiter}7)
+{record_delimiter}
+("relationship"{tuple_delimiter}HYNIX{tuple_delimiter}128GB{tuple_delimiter}Hynix is taking market share from Samsung in the 128GB segment{tuple_delimiter}8)
+{record_delimiter}
+("relationship"{tuple_delimiter}96GB{tuple_delimiter}128GB{tuple_delimiter}96GB is being positioned as an alternative to 128GB, affecting its market{tuple_delimiter}6)
+{completion_delimiter}
+#############################
+
+
+
+-Real Data-
+######################
+entity_types: [company, technology, market_trend, product, geographical_region, time_period, financial_metric]
+text: {input_text}
+######################
+output:

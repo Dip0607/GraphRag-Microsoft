@@ -1,0 +1,128 @@
+[
+  {
+    "MarketProvider": "De Dios & Associates",
+    "FileName": "Microsoft 2023.10.30.pptx",
+    "FileType": "pptx",
+    "FileUnit": "1",
+    "Content": "DRAM Market UpdateMicrosoft \u2013 October 2023"
+  },
+  {
+    "MarketProvider": "De Dios & Associates",
+    "FileName": "Microsoft 2023.10.30.pptx",
+    "FileType": "pptx",
+    "FileUnit": "2",
+    "Content": "10/30/20232Price Increase Attempts in Q423Strong SSD price increase can bring low positive free-cash-flow (FCF) in Q423 \u2013 reduces cash flow needs in Q424 \u2013 improves DRAM pricing environmentDRAM companies working on buy-aheads: hyperscale & smartphone OEMs can minimize or eliminate excess production over shipments in Q424DRAM companies raising LP5X prices by 15-20%Suppliers raising RD & PCD prices to channel by up to 20%Early Oct RDIMM prices showed price increases, suppliers raising subsequent quotesEarly monthly negotiations: +1% RD4, +2-3% RD5 m/m1A+ ramp delays tightening D5 supply, D5 price increases > D4"
+  },
+  {
+    "MarketProvider": "De Dios & Associates",
+    "FileName": "Microsoft 2023.10.30.pptx",
+    "FileType": "pptx",
+    "FileUnit": "3",
+    "Content": "10/30/20233NAND Price Increase Enables Low Positive Free Cash FlowSSD price increase \u2013 supply not demand drivenFCF improvement reduces short-term need for cash if bit shipments are not affectedMore NAND & DRAM price increases improve 2024 capex environmentUnlikely that SSD prices will return to previous low levels"
+  },
+  {
+    "MarketProvider": "De Dios & Associates",
+    "FileName": "Microsoft 2023.10.30.pptx",
+    "FileType": "pptx",
+    "FileUnit": "4",
+    "Content": "10/30/20234Pricing Issues May Affect Price Increase MomentumSuppliers still holding high inventory levels (mostly D4) as demand fallsConsumption demand is still low against production \u2013 PCs, smartphones, consumer, autoQ423 LP5X prices increases just moving to PCD5 price levels, recovering lost marginsPrice movement and level differences across suppliersSome channel companies hesitant to buy at 20% higher prices because of weak demandSome PCD and RD customers still holding high D4 inventory levels \u2013 sufficient thru Q224Higher D5 premium & uncertain transition schedules complicate buy-ahead decisionSupplier visibility into difference b/n customer purchases & consumption"
+  },
+  {
+    "MarketProvider": "De Dios & Associates",
+    "FileName": "Microsoft 2023.10.30.pptx",
+    "FileType": "pptx",
+    "FileUnit": "5",
+    "Content": "10/30/202352024 DRAM Bit Output Growth ScenariosNarrow range of 2023-2024 bit-output growth scenarios0% unlikely given demand outlook -  results in strong 2H recovery> 6% reduction unlikely \u2013 1A+ for cost and new productsCurrent 2023-2024 forecast: 4% bit-output reductionCapex limitations on 1A+ ramp1A+ output crossover late Q1241A+ output up 96%4% down2023-20246% down7% down0% flat2022-20238% growth96% up2023-202444% down2023-2024"
+  },
+  {
+    "MarketProvider": "De Dios & Associates",
+    "FileName": "Microsoft 2023.10.30.pptx",
+    "FileType": "pptx",
+    "FileUnit": "6",
+    "Content": "10/30/202361A+ Process Migrations Will Determine 2024 Behavior & Goals1A+ ramp differences across suppliersSamsung dependent on strong 1A+ rampHynix saturating \u2013 AI drivenMicron linear -All suppliers with 0 to negative \u201823-\u201924 output growthCommon financial goals but different marketing goals for each supplier"
+  },
+  {
+    "MarketProvider": "De Dios & Associates",
+    "FileName": "Microsoft 2023.10.30.pptx",
+    "FileType": "pptx",
+    "FileUnit": "7",
+    "Content": "10/30/20237Demand is the Big UncertaintyDRAM and set demand determined by macro financial, fiscal & geopolitical policies rather than industry-specific business cyclesConflicting policies related to inflation \u2013 weakening CB/Fed positionWe assume Fed/ECB stop raising rates by Q124 or earlierRisk of extended economic problems \u2013 unabated inflationDRAM demand affects buy-ahead propensity, not just consumption \u2013 willingness of customers to boost bit shipments, build inventory in 1H24Customer inventory buildup vs. weak demand growth can return to weak pricing \u2013 e.g., 2021DRAM Industry-specific issues:DDR5 transition question - High DDR5 premium, new Intel next-gen platformsCustomer and supplier inventory trends"
+  },
+  {
+    "MarketProvider": "De Dios & Associates",
+    "FileName": "Microsoft 2023.10.30.pptx",
+    "FileType": "pptx",
+    "FileUnit": "8",
+    "Content": "10/30/20238Supply Sufficiency Trends through 2024Suppliers see a narrower excess supply than customersNarrower Q423 excess supply with buy-aheads - may be understatedProduction-consumption balance by 2H24Assuming Fed policy change in Q124Price inflection in Q423 & Q124 depend on customers\u2019 advanced buyingCONSUMPTION GROWTH:8% \u201822-\u20192323-24% \u201823-\u201924PRODUCTION GROWTH:8% \u201822-\u201923-4% \u201823-\u201924SHIPMENT GROWTH:8% \u201822-\u201923ADVANCED BUYS?"
+  },
+  {
+    "MarketProvider": "De Dios & Associates",
+    "FileName": "Microsoft 2023.10.30.pptx",
+    "FileType": "pptx",
+    "FileUnit": "9",
+    "Content": "10/30/20239What are the Chances of Advanced Buys?Customer inventory plans reflected in relationship of purchasing v. consumption growthPurchasing growth = consumption growth results in 2H24 production-consumption parityHigh probability of a price increase thru Q2232H24 prices will depend on trend of supplier & customer inventory along with other factorsSupplier operating margins/FCFCustomer cost tolerancesASSUMES 2024 CONSUMPTION GROWTH = SHIPMENT GROWTH"
+  },
+  {
+    "MarketProvider": "De Dios & Associates",
+    "FileName": "Microsoft 2023.10.30.pptx",
+    "FileType": "pptx",
+    "FileUnit": "10",
+    "Content": "10/30/202310Macro Supplier & Customer Inventory ProfilesSuppliers will still hold inventory of older productsObsolete inventory reserves affect P&LSupply tightness of transition productsCustomers build higher inventory levelsAbility to build D5 inventory \u2013 higher pricesCan start using inventory in 2H24 (e.g., 2021) \u2013 suggests a short price hike"
+  },
+  {
+    "MarketProvider": "De Dios & Associates",
+    "FileName": "Microsoft 2023.10.30.pptx",
+    "FileType": "pptx",
+    "FileUnit": "11",
+    "Content": "10/30/202311Other Reasons for Advanced Buys and Customer InventoryTightening 2H24 supply vs. consumption if prices & capex remain lowSeasonality of LP5X demandEnsure continuous supply from declining output of older processesDRAM product proliferation and the need for insurance against a more difficult DRAM production environmentCapex (equipment, capacity) limitations and Op. Expense (engineering, support) reductionsProduct proliferation across multiple segments as resources are constrainedHBMx, TSV competition for capex and clean-room resourcesStrong attempts to move quickly to 1B process to resolve higher DDR5 cost issuesPotential quality issues"
+  },
+  {
+    "MarketProvider": "De Dios & Associates",
+    "FileName": "Microsoft 2023.10.30.pptx",
+    "FileType": "pptx",
+    "FileUnit": "12",
+    "Content": "10/30/2023122024 RD4 Price Forecast\u2019s Impact on Customers & SuppliersCustomer tolerance for higher costQ424 prices return close to Q422 levelsSupplier operating margin and cash-flow recoveryDemand can still affect supplier ability to maximize operating marginsAt 48% margin, $204 64GB RD4 price in Q424Forecast based on average OEM prices32% UP\u201823-\u20192433% DOWN\u201822-\u20192316% DOWN\u201821-\u20192240% UP\u201823-\u20192454% DOWN\u201822-\u20192316% DOWN\u201821-\u201922"
+  },
+  {
+    "MarketProvider": "De Dios & Associates",
+    "FileName": "Microsoft 2023.10.30.pptx",
+    "FileType": "pptx",
+    "FileUnit": "13",
+    "Content": "10/30/202313How High Can 64GB RD4 Prices Go?Price upturn consistency in first 5 months from bottom \u2013 recovery momentumUpturns driven historically by buy-aheadsHistorical prices deviate at month 5 and after \u2013 differences in market conditionsdemand growth, supply sufficiency, inventory trends, operating margins, customer tolerance for higher costUnprecedented high customer + supplier inventory shifts forecast curve to rightSep \u201923High customer/supplier inventory shifts curve3-8%q/q23-38%q/q5-29%q/qForecast based on average OEM prices"
+  },
+  {
+    "MarketProvider": "De Dios & Associates",
+    "FileName": "Microsoft 2023.10.30.pptx",
+    "FileType": "pptx",
+    "FileUnit": "14",
+    "Content": "10/30/202314How High Can 32GB 2Rx4 RD4 Prices Go?32GB RD4 expected to hit higher price indexNeed to recover more lost operating marginHigher 8Gb-based costMoving into legacy demand and pricingSep \u201923High customer/supplier inventory shifts curve3-8%q/q23-38%q/q5-29%q/qForecast based on average OEM prices"
+  },
+  {
+    "MarketProvider": "De Dios & Associates",
+    "FileName": "Microsoft 2023.10.30.pptx",
+    "FileType": "pptx",
+    "FileUnit": "15",
+    "Content": "10/30/202315Historical Comparable Price Upturn Models \u2013 DDR5 RDIMMIndexed vs. RD4 bottom to show mainstream price move from RD4 to RD5Mainstream price move higher than RD5 price change in 2024Sep \u201923Forecast based on average OEM pricesINDEXED AGAINST RD4 PRICE BOTTOM"
+  },
+  {
+    "MarketProvider": "De Dios & Associates",
+    "FileName": "Microsoft 2023.10.30.pptx",
+    "FileType": "pptx",
+    "FileUnit": "16",
+    "Content": "10/30/2023162H 2024 RD5: Balancing Price Premium vs. Operating MarginPrice premiums drop withRising RD4 pricesFaster RD5 adoption rateBetter operating marginsRising customer inventoryPremium reductions depend on supplier ability to max profit marginsFunction of demand, competition and customer inventoryIn Q424, only 2-pt margin loss to move to 5% premiumForecast based on average OEM prices10% UP\u201823-\u20192423% DOWN\u201822-\u201923"
+  },
+  {
+    "MarketProvider": "De Dios & Associates",
+    "FileName": "Microsoft 2023.10.30.pptx",
+    "FileType": "pptx",
+    "FileUnit": "17",
+    "Content": "10/30/202317Profit Margin HierarchyMainstream RD5 margins likely to be lowest against other major products because of higher costAffects supplier motivation to reduce premiums too lowSuppliers will be motivated to migrate to 1B (1-gamma) process for D5 cost effectiveness vs. D4"
+  },
+  {
+    "MarketProvider": "De Dios & Associates",
+    "FileName": "Microsoft 2023.10.30.pptx",
+    "FileType": "pptx",
+    "FileUnit": "18",
+    "Content": "10/30/202318ConclusionsSuppliers have advantage in raising prices but face several factors that can affect momentumDemand is still a bit uncertainty and can affect pricing behavior materially, affected by macro economic & geopolitical factors & policiesSuppliers may overshoot price increases beyond forecast to max marginsSupplier & customer inventory profiles in 2024 suggest a short price hike periodRD5 price premium drops to 15% or below depend on: RD4 price hike, RD5 relative operating margins, RD5 adoption rate, suppliers vs. customer inventoriesSuppliers motivated to move quickly to 1B process to boost RD5 profit margins"
+  }
+]
